@@ -1,0 +1,209 @@
+/* Theme Core CSS */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+}
+:root {
+    --font-color: #fff;
+}
+input::placeholder {
+    font-family: 'Montserrat Regular', sans-serif;
+    font-size: 18px;
+    color: #9B9696;
+}
+
+input:focus {
+    border: 2px solid #60D3A3;
+}
+select::placeholder{
+    font-family: 'Montserrat Regular', sans-serif;
+    font-size: 18px;
+    color: #9B9696;
+}
+
+select:focus {
+    border: 2px solid #60D3A3;
+}
+body {
+    background-color: #000073 !important;
+}
+.section-head {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 48px;
+    color: #fff;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #fff;
+}
+/* Font Barlow Semi Condensed */
+@font-face {
+    src: url(../font/Barlow-Semi-Condensed/BarlowSemiCondensed-SemiBold.ttf);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 600;
+}
+
+/* Font Montserrat */
+@font-face {
+    src: url(../font/Montserrat/Montserrat-Regular.ttf);
+    font-family: 'Montserrat Regular', sans-serif;
+    font-weight: 400;
+}
+@font-face {
+    src: url(../font/Montserrat/Montserrat-SemiBold.ttf);
+    font-family: 'Montserrat SemiBold', sans-serif;
+    font-weight: 600;
+}
+ @font-face {
+     src: url(../font/Montserrat/Montserrat-Bold.ttf);
+     font-family: 'Montserrat Bold', sans-serif;
+     font-weight: 700;
+ }
+
+/* Form CSS Start */
+
+.h1-test {
+    color: var(--font-color);
+}
+.field-title {
+    font-family: 'Montserrat SemiBold', sans-serif;
+    font-size: 18px;
+    color: var(--font-color);
+    padding: 5px;
+}
+
+.form-signal {
+    color: var(--font-color);
+    font-size: 22px;
+    padding: 5px 0px;
+}
+.signal-err {
+    color: #FF0000;
+
+}
+.signal-right {
+    color: #00FF00;
+}
+.form-field {
+    width: 486px;
+    height: 40px;
+    padding: 10px 15px;
+    border-radius: 50px;
+    border: 0;
+}
+
+.form-msg p {
+    color: var(--font-color);
+    font-family: 'Montserrat Regular', sans-serif;
+    font-size:  18px;
+    margin-bottom: 0;
+}
+.form-msg {
+    margin-top: 20px;
+}
+
+.Bdate,
+.Byear {
+    width: 130px;
+    height: 40px;
+    padding: 0px 15px;
+    border-radius: 50px;
+}
+
+.Bmonth {
+    width: 300px;
+    height: 40px;
+    padding: 0px 15px;
+    border-radius: 50px;
+}
+
+.Bdate option,
+.Byear option,
+.Bmonth option {
+    font-family: 'Montserrat Regular', sans-serif;
+}
+
+.checkBox label {
+    font-size: 18px;
+    color: #fff;
+    text-transform: capitalize;
+    margin-left: 10px;
+}
+
+.checkBox-field input[type=checkbox] {
+    height: 20px !important;
+    width: 20px !important;
+}
+
+ul.form-button li {
+    display: inline-block;
+}
+
+li a.form-btn {
+    display: block;
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    text-decoration: none;
+    color: #111;
+    margin: 0px 10px;
+}
+
+.fb-submit {
+    background: #60D3A3;
+}
+
+.fb-reset {
+    background: #BCC2C2;
+}
+
+/* Slider Section Start */
+.slick-arrow {
+    font-size: 32px;
+    color: #fff;
+    position: absolute;
+    z-index: 1;
+}
+.arrow-right {
+    right: 0;
+    top: 65px;
+}
+.arrow-left {
+    left: 0;
+    top: 65px;
+}
+
+.subHeading-title {
+    font-family: 'Montserrat Bold', sans-serif;
+    font-size: 18px;
+    color: #000073;
+}
+.subHeading p {
+    font-size: 18px;
+    font-family: 'Montserrat Regular', sans-serif;
+    padding: 0px 60px;
+}
+
+.subHeading-container {
+    position: relative !important;
+    background: #fff;
+    height: 295px;
+    padding: 60px 50px;
+}
+.subHeading-container::before {
+    position: absolute;
+    content: '';
+    width: 40px;
+    height: 40px;
+    background: white;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+/* Slider Section End */
