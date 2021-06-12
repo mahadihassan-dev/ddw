@@ -191,8 +191,8 @@ li a.form-btn {
     position: absolute;
     content: '\f06a';
     font-family: 'Font Awesome 5 Pro';
-    top: 0;
-    right: 0;
+    top: 4px;
+    right: 72px;
     font-size: 22px;
     color: #FF0000;
 }
@@ -201,8 +201,8 @@ li a.form-btn {
     position: absolute;
     content: '\f058';
     font-family: 'Font Awesome 5 Free';
-    top: 0;
-    right: 0;
+    top: 4px;
+    right: 72px;
     font-size: 22px;
     color:#00FF00;
 }
