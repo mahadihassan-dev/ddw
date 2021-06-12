@@ -186,7 +186,7 @@ li a.form-btn {
 .subHeading p {
     font-size: 18px;
     font-family: 'Montserrat Regular', sans-serif;
-    padding: 0px 60px;
+    padding: 5px 145px;
 }
 
 .subHeading-container {
@@ -194,6 +194,8 @@ li a.form-btn {
     background: #fff;
     height: 295px;
     padding: 60px 50px;
+    width: 1200px;
+    margin: auto;
 }
 .subHeading-container::before {
     position: absolute;
