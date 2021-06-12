@@ -32,22 +32,26 @@
                     <div class="col-12 formFiled mt-5">
                         <div class="row">
                             <!-- ./Form Field Label -->
-                            <div class="col-3">
-                                <label for="field-1" class="field-title">Form Field label : </label>
+                            <div class="col-4">
+                                <div class="field-box-label">
+                                    <label for="field-1" class="field-title">Form Field label : </label>
+                                </div>
                             </div>
                             <!-- ./Form Field Box -->
                             <div class="col-7">
-                                <input type="text" name="" id="field-1" placeholder="Prompt Text" class="form-field field-1-box">
-                                <div class="form-msg">
-                                    <p>Form field Instructions to go here if required.</p>
-                                    <p> Form field Instructions to go here if required.</p>
+                                <div class="field-box fb-error">
+                                    <input type="text" name="" id="field-1" placeholder="Prompt Text" class="form-field field-1-box">
+                                    <div class="form-msg">
+                                        <p>Form field Instructions to go here if required.</p>
+                                        <p> Form field Instructions to go here if required.</p>
+                                    </div>
                                 </div>
                             </div>
                             <!-- ./Form Filed Error Signal -->
-                            <div class="col-2">
-                                <span class="form-signal signal-err">
+                            <div class="offset-1">
+                                <!-- <span class="form-signal signal-err">
                                     <i class="fas fa-exclamation-circle"></i>
-                                </span>
+                                </span> -->
                             </div>
                         </div>
                     </div>
@@ -56,26 +60,30 @@
                     <div class="col-12 formFiled mt-5">
                         <div class="row">
                             <!-- ./Form Field Label -->
-                            <div class="col-3">
-                                <label for="field-1" class="field-title">Form Field label : </label>
+                            <div class="col-4">
+                                <div class="field-box-label">
+                                    <label for="field-1" class="field-title">Form Field label : </label>
+                                </div>
                             </div>
                             <!-- ./Form Field Box -->
                             <div class="col-7">
-                                <select name="" id="field-1" placeholder="Empty Dropdown Text" class="form-field field-1-box">
-                                    <option value="Option 1">Option One</option>
-                                    <option value="Option 1">Option Two</option>
-                                    <option value="Option 1">Option Three</option>
-                                </select>
-                                <div class="form-msg">
-                                    <p>Form field Instructions to go here if required.</p>
-                                    <p> Form field Instructions to go here if required.</p>
+                                <div class="field-box fb-right">
+                                    <select name="" id="field-1" placeholder="Empty Dropdown Text" class="form-field field-1-box">
+                                        <option value="Option 1">Option One</option>
+                                        <option value="Option 1">Option Two</option>
+                                        <option value="Option 1">Option Three</option>
+                                    </select>
+                                    <div class="form-msg">
+                                        <p>Form field Instructions to go here if required.</p>
+                                        <p> Form field Instructions to go here if required.</p>
+                                    </div>
                                 </div>
                             </div>
                             <!-- ./Form Filed Error Signal -->
-                            <div class="col-2">
-                                <span class="form-signal signal-right">
+                            <div class="offset-1">
+                                <!-- <span class="form-signal signal-right">
                                     <i class="far fa-check-circle"></i>
-                                </span>
+                                </span> -->
                             </div>
                         </div>
                     </div>
@@ -84,44 +92,49 @@
                     <div class="col-12 formFiled mt-5">
                         <div class="row">
                             <!-- ./Form Field Label -->
-                            <div class="col-3">
-                                <label for="field-1" class="field-title">Form Field label : </label>
+                            <div class="col-4">
+                                <div class="field-box-label">
+                                    <label for="field-1" class="field-title">Form Field label : </label>
+                                </div>
                             </div>
                             <!-- ./Form Field Box -->
                             <div class="col-7">
-                                <div class="row" id="field-1">
-                                    <div class="col-3">
-                                        <select name="birth-date" id="bDate" class="Bdate">
-                                            <option value="01">01</option>
-                                            <option value="01">01</option>
-                                            <option value="01">01</option>
-                                        </select>
+                                <div class="field-box fb-right">
+                                    <div class="row" id="field-1">
+                                        <div class="col-2">
+                                            <select name="birth-date" id="bDate" class="Bdate">
+                                                <option value="01">01</option>
+                                                <option value="01">01</option>
+                                                <option value="01">01</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-5">
+                                            <select name="birth-month" id="bMonth" class="Bmonth">
+                                                <option value="Month">Month</option>
+                                                <option value="Month">Month</option>
+                                                <option value="Month">Month</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-3">
+                                            <select name="birth-year" id="bYear" class="Byear">
+                                                <option value="1998">1998</option>
+                                                <option value="1998">1998</option>
+                                                <option value="1998">1998</option>
+                                            </select>
+                                        </div>
+                                        <div class="offset-2"></div>
                                     </div>
-                                    <div class="col-6">
-                                        <select name="birth-month" id="bMonth" class="Bmonth">
-                                            <option value="Month">Month</option>
-                                            <option value="Month">Month</option>
-                                            <option value="Month">Month</option>
-                                        </select>
+                                    <div class="form-msg">
+                                        <p>Form field Instructions to go here if required.</p>
+                                        <p> Form field Instructions to go here if required.</p>
                                     </div>
-                                    <div class="col-3">
-                                        <select name="birth-year" id="bYear" class="Byear">
-                                            <option value="1998">1998</option>
-                                            <option value="1998">1998</option>
-                                            <option value="1998">1998</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="form-msg">
-                                    <p>Form field Instructions to go here if required.</p>
-                                    <p> Form field Instructions to go here if required.</p>
                                 </div>
                             </div>
                             <!-- ./Form Filed Error Signal -->
-                            <div class="col-2">
-                                <span class="form-signal signal-right">
+                            <div class="offset-1">
+                                <!-- <span class="form-signal signal-right">
                                     <i class="far fa-check-circle"></i>
-                                </span>
+                                </span> -->
                             </div>
                         </div>
                     </div>
@@ -130,37 +143,47 @@
                     <div class="col-12 formFiled mt-5">
                         <div class="row">
                             <!-- ./Form Field Label -->
-                            <div class="col-3">
-                                <label for="field-1" class="field-title">Form Field label : </label>
+                            <div class="col-4">
+                                <div class="field-box-label">
+                                    <label for="field-1" class="field-title">Form Field label : </label>
+                                </div>
                             </div>
                             <!-- ./Form Field Box -->
                             <div class="col-7">
-                                <div class="frm-checkbox" id="field-1">
-                                    <div class="checkBox">
-                                        <input type="checkbox" name="checkBox" id="form-checkBox" class="checkBox-field">
-                                        <label for="form-checkBox">checkBox Label</label>
+                                <div class="field-box fb-error">
+                                    <div class="frm-checkbox" id="field-1">
+                                        <div class="checkBox">
+                                            <ul>
+                                                <li>
+                                                    <input type="checkbox" name="checkBox" id="form-checkBox" class="checkBox-field">
+                                                </li>
+                                                <li>
+                                                    <label for="form-checkBox">checkBox Label</label>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="checkBox">
+                                            <input type="checkbox" name="checkBox" id="form-checkBox" class="checkBox-field">
+                                            <label for="form-checkBox">checkBox Label</label>
+                                        </div>
                                     </div>
-                                    <div class="checkBox">
-                                        <input type="checkbox" name="checkBox" id="form-checkBox" class="checkBox-field">
-                                        <label for="form-checkBox">checkBox Label</label>
+                                    <div class="form-msg">
+                                        <p>Form field Instructions to go here if required.</p>
+                                        <p> Form field Instructions to go here if required.</p>
                                     </div>
-                                </div>
-                                <div class="form-msg">
-                                    <p>Form field Instructions to go here if required.</p>
-                                    <p> Form field Instructions to go here if required.</p>
                                 </div>
                             </div>
                             <!-- ./Form Filed Error Signal -->
-                            <div class="col-2">
-                                <span class="form-signal signal-err">
+                            <div class="offset-1">
+                                <!-- <span class="form-signal signal-err">
                                     <i class="fas fa-exclamation-circle"></i>
-                                </span>
+                                </span> -->
                             </div>
                         </div>
                     </div>
 
                     <!-- ./ Form Field - five -->
-                    <div class="col-12 formFiled mt-5">
+                    <div class="col-12 formFiled formFiled-btn">
                         <div class="row">
                             <!-- ./Form Field Label -->
                             <div class="offset-3"></div>
@@ -189,5 +212,6 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/fontawesome.min.js"></script>
+    <script src="https://mahadihassan-dev.github.io/6332f77505.js"></script>
 </body>
 </html>
