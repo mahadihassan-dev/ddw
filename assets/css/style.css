@@ -96,6 +96,15 @@ h1, h2, h3, h4, h5, h6 {
     border: 0;
 }
 
+.form-option {
+    width: 486px;
+    height: 40px;
+    padding: 10px 15px;
+    border-radius: 50px;
+    border: 0;
+}
+
+
 .form-msg p {
     color: var(--font-color);
     font-family: 'Montserrat Regular', sans-serif;

@@ -1,4 +1,94 @@
-/* Screen Width 1280px */
-@media screen and (max-width: 1280px) {
+/* Screen Width Medium Device: 375px */
+@media screen and (max-width: 375px) {
+    /* Theme Core CSS Responsive Style */
+    .section-head {
+        font-size: 36px;
+    }
+    /* Form Page CSS Start */
+    .field-title {
+        margin-left: -6px;
+        font-size: 15px;
+    }
+    .field-box {
+        margin-left: 0;
+    }
+    .form-field {
+        width: 327px;
+        height: 37px;
+        /* margin-left: 17px; */
+    }
+    .form-option {
+        width: 327px;
+        height: 37px;
+        /* margin-left: 17px; */
+        padding: 0px 15px;
+    }    
+    .formFiled-btn {
+        margin-top: 30px;
+        margin-left: 0;
+    }
+    .fb-error::after {
+        top: 4px;
+        right: -8px;
+    }
+    .fb-right::after {
+        top: 4px;
+        right: -8px;
+    }    
+    .form-msg {
+        margin-top: 11px;
+        margin-left: -2px;
+    }
+    .formFilled-option-one {
+        margin-top: 25px;
+    }
+    .formFiled-birth {
+        margin-top: 23px;
+    }
+    .form-msg p {
+        font-size: 16px;
+    }
+    .Byear {
+        width: 77px;
+        height: 34px;
+        margin-left: 25px;
+    }
+    .Bmonth {
+        width: 148px;
+        margin-left: 23px;
+    }
+    .Bdate {
+        width: 76px;
+        height: 36px;
+    }
+    .checkBox ul {
+        margin-bottom: 0;
+    }
+    .formFiled-Checkbox {
+        margin-top: 63px;
+    }
+    li a.form-btn {
+        width: 170px;
+        margin: 0px 0px;
+        font-size: 15px;
+        font-family: 'Montserrat Regular', sans-serif;
+        font-weight: 400;
+    }
+   
+    input[type="checkbox"] {
+        width: 28px;
+        height: 28px;
+        background: red;
+    }
+    .checkBox label {
+        font-size: 15px;
+        color: #fff;
+        text-transform: capitalize;
+        margin-bottom: 2px;
+        margin-left: 15px;
+    }
+    .form-msg-checkbox {
+        margin-top: 18px;
+    }
     
 }
