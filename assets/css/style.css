@@ -40,29 +40,9 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
 }
 /* Font Barlow Semi Condensed */
-@font-face {
-    src: url(../font/Barlow-Semi-Condensed/BarlowSemiCondensed-SemiBold.ttf);
-    font-family: 'Barlow Semi Condensed Semi-Bold', sans-serif;
-    font-weight: 600;
-}
-
-
+@import url(../font/barlow-Semi-Condensed.css);
 /* Font Montserrat */
-@font-face {
-    src: url(../font/Montserrat/Montserrat-Regular.ttf);
-    font-family: 'Montserrat Regular', sans-serif;
-    font-weight: 400;
-}
-@font-face {
-    src: url(../font/Montserrat/Montserrat-SemiBold.ttf);
-    font-family: 'Montserrat SemiBold', sans-serif;
-    font-weight: 600;
-}
- @font-face {
-     src: url(../font/Montserrat/Montserrat-Bold.ttf);
-     font-family: 'Montserrat Bold', sans-serif;
-     font-weight: 700;
- }
+@import url(../font/montserrat.css);
 
 /* Form CSS Start */
 

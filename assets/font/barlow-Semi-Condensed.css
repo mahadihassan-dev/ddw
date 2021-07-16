@@ -1,0 +1,24 @@
+/* All Barlow-Semi-Condensed Fonts are Imported Here */
+@font-face {
+    src: url(../font/Barlow-Semi-Condensed/BarlowSemiCondensed-Thin.ttf)  format(ttf);
+    font-family: 'Barlow Semi Condensed Thin', sans-serif;
+
+}
+@font-face {
+    src: url(../font/Barlow-Semi-Condensed/BarlowSemiCondensed-Light.ttf) format(ttf);
+    font-family: 'Barlow Semi Condensed Light', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+@font-face {
+    src: url(../font/Barlow-Semi-Condensed/BarlowSemiCondensed-Regular.ttf)  format(ttf);
+    font-family: 'Barlow Semi Condensed Regular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    src: url(../font/Barlow-Semi-Condensed/BarlowSemiCondensed-SemiBold.ttf)  format(ttf);
+    font-family: 'Barlow Semi Condensed Semi-Bold', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+}

@@ -1,0 +1,16 @@
+/* All Montserrat Fonts are Imported Here */
+@font-face {
+    src: url(../font/Montserrat/Montserrat-Regular.ttf);
+    font-family: 'Montserrat Regular', sans-serif;
+    font-weight: 400;
+}
+@font-face {
+    src: url(../font/Montserrat/Montserrat-SemiBold.ttf);
+    font-family: 'Montserrat SemiBold', sans-serif;
+    font-weight: 600;
+}
+ @font-face {
+     src: url(../font/Montserrat/Montserrat-Bold.ttf);
+     font-family: 'Montserrat Bold', sans-serif;
+     font-weight: 700;
+ }

@@ -93,6 +93,40 @@
     .field-box-label-checkbox label {
         display: none;
     }
+
+
+    /* Slider Section Start */
+    br {
+        display: none;
+    }
+    .subHeading-container {
+        position: relative !important;
+        background: #fff;
+        height: 297px;
+        padding: 35px 13px;
+        width: 355px;
+        margin: auto;
+        margin-left: -38px;
+    }
+    .subHeading p {
+        font-size: 14px;
+        font-family: 'Montserrat Regular', sans-serif;
+        padding: 0px 15px;
+    }
+    .slick-slide img {
+        display: block;
+        width: 180px;
+        height: 180px;
+        margin: auto;
+    }
+    .arrow-right {
+        right: 47px;
+        top: 46px;
+    }
+    .arrow-left {
+        left: 40px;
+        top: 47px;
+    }
     
 }
 
@@ -206,5 +240,27 @@
         margin-left: -13px;
         margin-top: -8px;
         margin-right: 23px;
+    }
+
+    /* Slider Section Start */
+    .slider_section_head {
+        font-size: 48px;
+    }
+    .subHeading-container {
+        position: relative !important;
+        background: #fff;
+        height: 297px;
+        padding: 40px 0px;
+        width: 700px;
+        margin: auto;
+        margin-left: -15px;
+    }
+    .subHeading p {
+        font-size: 18px;
+        font-family: 'Montserrat Regular', sans-serif;
+        padding: 5px 62px;
+    }
+    .subHeading p br {
+        display: none;
     }
 }

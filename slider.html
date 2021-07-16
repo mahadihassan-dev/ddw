@@ -8,6 +8,8 @@
     <!-- Theme CSS Connected -->
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/font/montserrat.css">
+    <link rel="stylesheet" href="./assets/font/barlow-Semi-Condensed.css">
     <!-- Bootstrap 4.6 Connected -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css"/>
     <!-- Font Awesome 5.15.3 -->
@@ -23,7 +25,7 @@
             <!-- Feature Info Title -->
             <div class="row">
                 <div class="col-12 text-center mt-5 mb-5">
-                    <h1>Feature Info Block</h1>
+                    <h1 class="slider_section_head">Feature Info Block</h1>
                 </div>
             </div>
             <!-- Slide Topic Image -->
@@ -124,29 +126,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/fontawesome.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-    <script>
-        // Slider Start
-        $(document).ready(function(){
-            $('.img-slider').slick({
-                slidesToShow: 5,
-                slidesToScroll: 5,
-                arrows: true,
-                dots: false,
-                centerMode: true,
-                // prevArrow: '<i class="fas fa-angle-right slide-arrow arrow-right"></i>',
-                // nextArrow: '<i class="fas fa-angle-left slide-arrow arrow-left"></i>',
-                prevArrow: '<img src="./assets/images/left-arrow.png" alt="" class="img-fluid slide-arrow arrow-left">',
-                nextArrow: '<img src="./assets/images/right-arrow.png" alt="" class="img-fluid slide-arrow arrow-right">',
-                asNavFor: '.subHeading-slide',
-            });
-            $('.subHeading-slide').slick({
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                arrows: false,
-                fade: true,
-                asNavFor: '.img-slider',
-            });
-        })
-    </script>
+    <script src="./assets/js/main.js"></script>
 </body>
 </html>
